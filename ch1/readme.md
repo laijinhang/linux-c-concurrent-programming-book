@@ -24,11 +24,20 @@
 **Demo**
 
 **声明**
+int 变量名[2]; // 0为读，1为写
 
 **创建pipe**
+```c
+if (pipe(urlPipe)) {
+    fprintf(stderr, "Pipe failed. \n");
+    exit(-1);
+}
+```
 
 **往pipe写数据**
+```c
 
+```
 **从pipe读数据**
 
 ##### 2. 匿名管道
