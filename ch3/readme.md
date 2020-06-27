@@ -1,6 +1,14 @@
 # 第三章 network
 * TCP
 * UDP
+
+**函数**
+* bind
+* [listen](https://github.com/laijinhang/linux-c-concurrent-programming-book/blob/master/ch3/listen.md)
+* accept
+* read
+* write
+* close
 ### 一、TCP
 - 客户端
 - 服务端
